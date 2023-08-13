@@ -1,19 +1,19 @@
 package com.example;
 
 /**
- * This is a class.
+ * This is a Jenkins class.
  */
 public class Greeter {
 
   /**
-   * This is a constructor.
+   * You have successfully completed the Deployment.
    */
   public Greeter() {
 
   }
 
  /**
-   * This is a method.
+   * Go and Take some break ASAP..!!!.
    */
   public final String greet(final String someone) {
     return String.format("Hello Avinash, %s!", someone);
