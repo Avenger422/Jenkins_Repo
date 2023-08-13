@@ -20,8 +20,9 @@
 </head>
 <body>
 <div class="header">
-  <h1>Hello JJ Tech Family !!!</h1>
-  <p>This Java Web Application Was Deployed Using CI/CD</p>
+  <h1>Hello Ultron</h1>
+  <p>You have Successfully Built And Deployed The Application using JENKINS</p>
+  <p>Go and take a break ASAP</p>
 </div>
 </body>
 </html>
