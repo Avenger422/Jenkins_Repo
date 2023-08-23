@@ -21,7 +21,7 @@ pipeline {
         stage('Deliver') {
             steps {
                 sshagent(credentials: ['5ef95c33-9d5f-4c4a-a421-de8ec24998b6']) {
-                    sh 'scp -o StrictHostKeyChecking=no target/*.war tomcatuser@172.174.43.139:/home/tomcatuser/apache-tomcat-9.0.78/webapps'
+                    sh 'scp -o StrictHostKeyChecking=no target/maven-project-1.0-SNAPSHOT.war tomcatuser@172.174.43.139:/home/tomcatuser/apache-tomcat-9.0.78/webapps'
                 }
             }
         }
